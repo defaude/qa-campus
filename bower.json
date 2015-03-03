@@ -1,0 +1,18 @@
+{
+  "name": "qa-campus",
+  "version": "1.0.0",
+  "license": "WTFPL",
+  "main": [
+    "dist/qa-campus.js"
+  ],
+  "ignore": [
+    "*.iml",
+    ".idea",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.3.14",
+    "ng-lodash": "~0.2.0"
+  }
+}

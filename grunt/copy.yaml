@@ -1,0 +1,3 @@
+code:
+  src: 'src/qa-campus.js'
+  dest: 'dist/qa-campus.js'

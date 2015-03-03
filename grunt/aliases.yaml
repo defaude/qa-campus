@@ -1,0 +1,18 @@
+default:
+- dist
+
+dist:
+- build
+- copy
+
+dev:
+- build
+- serve
+
+build:
+- clean
+- jshint
+
+serve:
+- connect
+- watch

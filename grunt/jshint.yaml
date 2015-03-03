@@ -1,0 +1,6 @@
+options:
+  force: true
+  jshintrc: true
+
+code:
+  src: 'src/qa-campus.js'

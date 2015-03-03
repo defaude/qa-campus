@@ -1,0 +1,20 @@
+{
+  "name": "qa-campus",
+  "version": "1.0.0",
+  "description": "Some utilities for the QAware Campus 2015 web ui track.",
+  "author": {
+    "name": "Roland Hummel",
+    "email": "git@defaude.info",
+    "url": "https://github.com/defaude"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-config": "^0.16.0"
+  }
+}

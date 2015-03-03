@@ -1,0 +1,6 @@
+code:
+  options:
+    livereload: true
+  files: 'src/**/*'
+  tasks:
+  - build
