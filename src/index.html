@@ -11,38 +11,31 @@
             <div>
                 <p>
                     <label for="pR">pR:</label><br />
-                    <input type="text" id="pR" ng-model="pR" />
+                    <input type="text" id="pR" ng-model="input.pR" />
                 </p>
                 <p>
                     <label for="pI">pI:</label><br />
-                    <input type="text" id="pI" ng-model="pI" />
+                    <input type="text" id="pI" ng-model="input.pI" />
                 </p>
                 <p>
                     <label for="extent">extent:</label><br />
-                    <input type="text" id="extent" ng-model="extent" />
+                    <input type="text" id="extent" ng-model="input.extent" />
                 </p>
                 <p>
                     <label for="iterations">iterations:</label><br />
-                    <input type="text" id="iterations" ng-model="iterations" />
+                    <input type="text" id="iterations" ng-model="input.iterations" />
                 </p>
 
                 <button ng-click="calculate()">click me</button>
                 <small>and look into your dev tools' console.</small>
             </div>
 
-            <div id="picture-area" ng-show="showTiles" ng-style="{width: ctrl.desiredImageWidth() + 'px', height: ctrl.desiredImageWidth() + 'px'}">
-                <div id="canvas-content"
-                     ng-style="{width: ctrl.pictureDimension(), height: ctrl.pictureDimension(), transform: 'translate(' + ctrl.xOffset() +  'px,' + ctrl.yOffset() + 'px)'}">
-                    <div class="tile-row" ng-repeat="row in rows">
-                        <qa-canvas ng-repeat="tile in row"
-                                   pixels="tile"
-                                   width="{{ctrl.tileSize()}}"
-                                   height="{{ctrl.tileSize()}}" />
-                    </div>
-                </div>
+            <div id="picture-area">
+                <picture view-model="pictureViewModel"></picture>
             </div>
         </div>
 
+        <script src="jquery/dist/jquery.min.js"></script>
         <script src="angular/angular.min.js"></script>
         <script src="ng-lodash/build/ng-lodash.min.js"></script>
         <script src="qa-campus-2015-web-ui.js"></script>
