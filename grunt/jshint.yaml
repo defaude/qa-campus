@@ -3,4 +3,4 @@ options:
   jshintrc: true
 
 code:
-  src: 'src/qa-campus.js'
+  src: 'src/qa-campus-2015-web-ui.js'

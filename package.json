@@ -1,6 +1,6 @@
 {
-  "name": "qa-campus",
-  "version": "1.0.0",
+  "name": "qa-campus-2015-web-ui",
+  "version": "2.0.0",
   "description": "Some utilities for the QAware Campus 2015 web ui track.",
   "author": {
     "name": "Roland Hummel",
